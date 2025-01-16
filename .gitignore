@@ -1,0 +1,15 @@
+# Generic files and folders to ignore
+*.log
+*.log.*
+*.log/*
+.tmp
+*.tmp
+*.tmp.*
+*.tmp/*
+tmp.*
+.local/
+.bak/
+
+# Intellij IDEA settings
+.idea/
+*.iml

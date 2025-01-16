@@ -1,0 +1,27 @@
+_templates_suffix: .jinja2
+
+_exclude:
+  # The default _exclude settings minus the copier.yaml
+  # See: https://copier.readthedocs.io/en/stable/configuring/#exclude
+  - "copier.yaml"
+  - "copier.yml"
+  - "~*"
+  - "*.py[co]"
+  - "__pycache__"
+  - ".git"
+  - ".DS_Store"
+  - ".svn"
+
+  - "LICENSE.md"
+  - "README.md"
+
+license_owner:
+  type: str
+  help: The owner of the license
+  default: "Mihaly Farkas"
+
+license_year_start:
+  type: int
+  help: The year the license starts (by default the current year, when the new Copier template is created)
+  default: 2025
+
